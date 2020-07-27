@@ -21,7 +21,7 @@
   },
   "homepage": "https://ucloud-fe.github.io/react-components/",
   "scripts": {
-    "ci": "echo 'node version:' && node -v && echo 'npm version:' && npm -v",
+    "ci": "echo 'node version:' && node -v && echo 'npm version:' && npm -v && echo 'yarn version:' && yarn --version",
     "start": "pm2 startOrReload start-pm2.json",
     "start:withlog": "pm2 startOrReload start-pm2.json && pm2 logs react-components-styleguide",
     "restart": "npm start",

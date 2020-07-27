@@ -19,7 +19,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - run: npm ci
+      - run: npm run ci
+      - run: yarn
       - run: npm run build:dist
       - run: npm run build:lib
       - run: npm run build:gh-pages
